@@ -1,4 +1,5 @@
 **1. HttpURLConnection (Old School)**
+------------------------------------------
 Introduced: Java 1.1 (as part of java.net).
 
 Blocking API: You open a connection, write to it, and read the response — all synchronously.
@@ -34,8 +35,9 @@ No built-in async or reactive support.
 Limited configuration flexibility.
 
 Harder to deal with cookies, redirects, timeouts, and request building compared to newer APIs.
-**
-2. HttpClient (New & Shiny)**
+
+**2. HttpClient (New & Shiny)**
+--------------------------------------
 Introduced: Java 11 (java.net.http.HttpClient).
 
 Modern API: Supports both synchronous and asynchronous (non-blocking) calls.
